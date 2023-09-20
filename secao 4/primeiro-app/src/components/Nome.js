@@ -1,6 +1,7 @@
-function Nome(){
+
+function Nome({aluno, idade}){
     return(
-      <span>Bem-vindo: Venâncio</span>
+      <span>Bem-vindo: {aluno} - Idade: {idade}</span>
     )
   }
   
